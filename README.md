@@ -186,37 +186,24 @@ cd frontend
 
 ## 🌟 Feature Summary
 
-
-
-# ✅ **1. Frontend (HTML + CSS + JavaScript)**
-
-## ✔ **Included Screens**
-- Quiz Generation Page (Tab 1)  
-- Quiz Result Cards  
-- History Page (Tab 2)  
-- Quiz Details Modal  
-
-<br
-
-
 # **📘 Wikipedia-based quiz generation:**
 - 🤖 AI-powered question creation using Gemini
 - 🧠 Difficulty-based filtering
--💾 Persistent quiz history
--📊 Structured JSON API responses
--🧾 Modal-based quiz review
--🧼 Clean and minimal UI
+- 💾 Persistent quiz history
+- 📊 Structured JSON API responses
+- 🧾 Modal-based quiz review
+- 🧼 Clean and minimal UI
 
 <br>
 
-## 🏁 Conclusion
+# ## 🏁 Conclusion
 
--**This Wiki Quiz Generator demonstrates:**
--End-to-end AI integration using LangChain
--Clean Wikipedia scraping and data extraction
--Backend-driven frontend architecture
--Database-backed quiz history
--Practical real-world use of Large Language Models
+# s**This Wiki Quiz Generator demonstrates:**
+- End-to-end AI integration using LangChain
+- Clean Wikipedia scraping and data extraction
+- Backend-driven frontend architecture
+- Database-backed quiz history
+- Practical real-world use of Large Language Models
 -Strong API design with proper error handling
 
 <br>

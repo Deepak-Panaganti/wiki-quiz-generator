@@ -114,6 +114,13 @@ This project demonstrates **real-world LLM integration**, backend-driven UI, and
 └─────────────────────┘
 ---
 
+| quizzes |
+|------|---------|-------------|
+| ** id (PK)** |
+| **GET** | `/history/{quiz_id}` | Fetch quiz details |
+
+---
+
 <br>
 
 Each quiz record stores:

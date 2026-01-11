@@ -199,7 +199,7 @@ cd frontend
 <br
 
 
-**📘 Wikipedia-based quiz generation:**
+#**📘 Wikipedia-based quiz generation:**
 -🤖 AI-powered question creation using Gemini
 -🧠 Difficulty-based filtering
 -💾 Persistent quiz history

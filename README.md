@@ -196,9 +196,9 @@ cd frontend
 
 <br>
 
-# ## 🏁 Conclusion
+## 🏁 Conclusion
 
-# s**This Wiki Quiz Generator demonstrates:**
+# **This Wiki Quiz Generator demonstrates:**
 - End-to-end AI integration using LangChain
 - Clean Wikipedia scraping and data extraction
 - Backend-driven frontend architecture

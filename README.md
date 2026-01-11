@@ -102,6 +102,7 @@ This project demonstrates **real-world LLM integration**, backend-driven UI, and
 # ✅ **3. Database (PostgreSQL / SQLite)**
 
 ## **ENTITY–RELATIONSHIP DIAGRAM (ERD)**
+```
 ┌─────────────────────┐
 │ quizzes             │
 ├─────────────────────┤
@@ -112,13 +113,7 @@ This project demonstrates **real-world LLM integration**, backend-driven UI, and
 │ quiz (JSON)         │
 │ related_topics(JSON)│
 └─────────────────────┘
----
-
-| Method | Endpoint | Description |
-|------|---------|-------------|
-| **GET** | `/history` | Fetch all past quizzes |
-| **GET** | `/history/{quiz_id}` | Fetch quiz details |
-
+```
 ---
 
 <br>

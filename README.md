@@ -162,6 +162,7 @@ uvicorn main:app --reload
 👉 http://127.0.0.1:8000
 
 <br>
+
 ## 🧩 Environment Variables
 
 -Create a .env file inside backend/ (NOT pushed to GitHub):
@@ -170,6 +171,7 @@ GOOGLE_API_KEY=your_gemini_api_key
 DATABASE_URL=postgresql://username:password@localhost:5432/wikiquiz
 ```
 <br>
+
 ## 💻 Frontend Setup
 
 ```
@@ -181,6 +183,7 @@ cd frontend
 👉 http://127.0.0.1:5500
 
 <br>
+
 ## 🌟 Feature Summary
 
  -📘 Wikipedia-based quiz generation
@@ -205,6 +208,7 @@ cd frontend
  -Strong API design with proper error handling
 
 <br>
+
 🙏 Thank You
 
 Wiki Quiz Generator

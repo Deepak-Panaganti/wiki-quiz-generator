@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Wiki Quiz App</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Wiki Quiz Generator</h1>
+      <p>Enter a Wikipedia URL and generate a quiz.</p>
+    </header>
+
+    <div class="tabs">
+      <button id="tab-generate" class="active">Generate Quiz</button>
+      <button id="tab-history">History</button>
+    </div>
+
+    <main>
+      <section id="generate" class="tab">
+        <input id="url" placeholder="https://en.wikipedia.org/wiki/Alan_Turing" />
+        <label>Difficulty
+          <select id="difficulty">
+            <option value="">Any</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </label>
+        <label>Questions
+          <input id="num_questions" type="number" min="1" max="10" value="5"/>
+        </label>
+        <button id="generateBtn">Generate</button>
+
+        <div id="status" class="status"></div>
+        <div id="quiz-container"></div>
+      </section>
+
+      <section id="history" class="tab hidden">
+        <table id="history-table">
+          <thead><tr><th>ID</th><th>Title/URL</th><th>Action</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+
+  <!-- modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-body">
+      <button id="closeModal">Close</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

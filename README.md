@@ -186,8 +186,20 @@ cd frontend
 
 ## 🌟 Feature Summary
 
--**📘 Wikipedia-based quiz generation:**
 
+
+# ✅ **1. Frontend (HTML + CSS + JavaScript)**
+
+## ✔ **Included Screens**
+- Quiz Generation Page (Tab 1)  
+- Quiz Result Cards  
+- History Page (Tab 2)  
+- Quiz Details Modal  
+
+<br
+
+
+**📘 Wikipedia-based quiz generation:**
 -🤖 AI-powered question creation using Gemini
 -🧠 Difficulty-based filtering
 -💾 Persistent quiz history

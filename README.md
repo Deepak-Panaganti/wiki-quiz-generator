@@ -147,69 +147,62 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 ```
-Initialize Database
+
+## Initialize Database
+```
 python init_db.py
+```
 
-Start Backend Server
+## Start Backend Server
+```
 uvicorn main:app --reload
+```
 
-
-Backend runs at:
+## Backend runs at:
 👉 http://127.0.0.1:8000
 
 <br>
-🧩 Environment Variables
+## 🧩 Environment Variables
 
-Create a .env file inside backend/ (NOT pushed to GitHub):
-
+-Create a .env file inside backend/ (NOT pushed to GitHub):
+```
 GOOGLE_API_KEY=your_gemini_api_key
 DATABASE_URL=postgresql://username:password@localhost:5432/wikiquiz
-
+```
 <br>
-💻 Frontend Setup
+## 💻 Frontend Setup
+
+```
 cd frontend
-
-
-Open index.html directly
-
-OR use Live Server in VS Code
-
-Frontend runs at:
+```
+-Open index.html directly
+-OR use Live Server in VS Code
+-Frontend runs at:
 👉 http://127.0.0.1:5500
 
 <br>
-🌟 Feature Summary
+## 🌟 Feature Summary
 
-📘 Wikipedia-based quiz generation
+ -📘 Wikipedia-based quiz generation
 
-🤖 AI-powered question creation using Gemini
-
-🧠 Difficulty-based filtering
-
-💾 Persistent quiz history
-
-📊 Structured JSON API responses
-
-🧾 Modal-based quiz review
-
-🧼 Clean and minimal UI
+ -🤖 AI-powered question creation using Gemini
+ -🧠 Difficulty-based filtering
+ -💾 Persistent quiz history
+ -📊 Structured JSON API responses
+ -🧾 Modal-based quiz review
+ -🧼 Clean and minimal UI
 
 <br>
-🏁 Conclusion
 
-This Wiki Quiz Generator demonstrates:
+## 🏁 Conclusion
 
-End-to-end AI integration using LangChain
-
-Clean Wikipedia scraping and data extraction
-
-Backend-driven frontend architecture
-
-Database-backed quiz history
-
-Practical real-world use of Large Language Models
-
-Strong API design with proper error handling
+ This Wiki Quiz Generator demonstrates:
+ -End-to-end AI integration using LangChain
+ -Clean Wikipedia scraping and data extraction
+ -Backend-driven frontend architecture
+ -Database-backed quiz history
+ -Practical real-world use of Large Language Models
+ -Strong API design with proper error handling
 
 <br>
 🙏 Thank You

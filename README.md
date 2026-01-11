@@ -186,26 +186,26 @@ cd frontend
 
 ## 🌟 Feature Summary
 
- -📘 Wikipedia-based quiz generation
+-**📘 Wikipedia-based quiz generation:**
 
- -🤖 AI-powered question creation using Gemini
- -🧠 Difficulty-based filtering
- -💾 Persistent quiz history
- -📊 Structured JSON API responses
- -🧾 Modal-based quiz review
- -🧼 Clean and minimal UI
+-🤖 AI-powered question creation using Gemini
+-🧠 Difficulty-based filtering
+-💾 Persistent quiz history
+-📊 Structured JSON API responses
+-🧾 Modal-based quiz review
+-🧼 Clean and minimal UI
 
 <br>
 
 ## 🏁 Conclusion
 
- This Wiki Quiz Generator demonstrates:
- -End-to-end AI integration using LangChain
- -Clean Wikipedia scraping and data extraction
- -Backend-driven frontend architecture
- -Database-backed quiz history
- -Practical real-world use of Large Language Models
- -Strong API design with proper error handling
+-**This Wiki Quiz Generator demonstrates:**
+-End-to-end AI integration using LangChain
+-Clean Wikipedia scraping and data extraction
+-Backend-driven frontend architecture
+-Database-backed quiz history
+-Practical real-world use of Large Language Models
+-Strong API design with proper error handling
 
 <br>
 
